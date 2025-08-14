@@ -1,0 +1,10 @@
+{
+  "id": "pin_to_king",
+  "name": "Pin to the King",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["pin","x-ray","lines","suppress defender"],
+  "recognition": ["their_piece_pinned_to_king"],
+  "explain": "A pinned piece can’t move without exposing the king; increase pressure or redirect to win material.",
+  "reply": "Exploit the pin with a second attacker or deflection; if defending, unpin by interposing, moving the king, or trading attackers."
+}

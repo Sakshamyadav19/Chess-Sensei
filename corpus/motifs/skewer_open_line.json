@@ -1,0 +1,10 @@
+{
+  "id": "skewer_open_line",
+  "name": "Skewer on an Open Line",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["skewer","x-ray","files","ranks","diagonals"],
+  "recognition": ["xray_same_file_as_king_with_one_blocker"],
+  "explain": "Align rook/queen with the enemy king on a file/rank; after forcing the king to move, win the more valuable piece behind it.",
+  "reply": "Contest/open line only when favorable; otherwise, block the file, move the king off the line, or trade line pieces."
+}

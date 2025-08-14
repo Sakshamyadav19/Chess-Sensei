@@ -1,0 +1,10 @@
+{
+  "id": "back_rank_weakness",
+  "name": "Back-rank weakness",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["back rank","mate","open file"],
+  "recognition": ["our_back_rank_boxed","their_major_on_open_file"],
+  "explain": "King boxed by own pawns; mating nets or tactics on the last rank appear.",
+  "reply": "Create luft (h3/h6) or contest the open file; avoid back-rank tricks."
+}

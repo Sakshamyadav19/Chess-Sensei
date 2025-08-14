@@ -1,0 +1,10 @@
+{
+  "id": "queen_sortie_h5_h7_battery",
+  "name": "Queen sortie toward h7/h2",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["queen sortie","king attack","dark squares","battery"],
+  "recognition": ["opponent_queen_on_h5_or_h4","our_king_castled_short","line_to_h7_or_h2"],
+  "explain": "Q+B battery aiming at h7/h2; provokes g6/h6 and weakens dark squares.",
+  "reply": "Blunt with h6/g6 or exchange attackers; chase queen via Nf8–g6 or Be7."
+}

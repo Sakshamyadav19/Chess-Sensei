@@ -1,0 +1,10 @@
+{
+  "id": "greek_gift_bxh7",
+  "name": "Greek Gift (Bxh7+)",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["sacrifice","king attack","dark squares","classic"],
+  "recognition": ["their_king_castled_short","our_bishop_attacks_h7_or_h2","our_knight_can_jump_g5_or_g4"],
+  "explain": "Bxh7+ sacrifice to expose the king; follow-up with Ng5+ and Qh5/ Qh7 ideas if defenders are poorly placed.",
+  "reply": "If defending, keep king safe with ...Kh8/ ...Kf8, return material if needed; challenge knight/queen quickly to defuse the attack."
+}

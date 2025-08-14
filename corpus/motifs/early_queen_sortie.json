@@ -1,0 +1,10 @@
+{
+  "id": "early_queen_sortie",
+  "name": "Early queen sortie toward h7/h2",
+  "type": "tactic",
+  "phase": "opening",
+  "tags": ["queen sortie","premature attack","dark squares"],
+  "recognition": ["opponent_queen_on_h5_or_h4","line_to_h7_or_h2"],
+  "explain": "Early queen poke toward h7/h2; often provokes weakening moves like g6/h6 without concrete threats.",
+  "reply": "Develop calmly and blunt dark-square ideas (…h6/…g6 if needed); chase the queen with simple moves like …Nf6 or …Be7."
+}

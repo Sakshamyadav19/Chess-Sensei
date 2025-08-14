@@ -1,0 +1,10 @@
+{
+  "id": "discovered_attack_diagonal",
+  "name": "Discovered Attack (Diagonal Battery)",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["discovered attack","battery","initiative"],
+  "recognition": ["queen_bishop_same_diagonal_with_blocker"],
+  "explain": "Moving the front piece unleashes a hidden diagonal attack (often Q+B); time the clearance to create double threats.",
+  "reply": "Anticipate the clearance; remove the front piece’s tempo, block the diagonal, or exchange to dismantle the battery."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "hanging_piece_tactic",
+  "name": "Hanging piece",
+  "type": "tactic",
+  "phase": "middlegame",
+  "tags": ["loose piece","tempo","material"],
+  "recognition": ["our_hanging_piece_exists"],
+  "explain": "An undefended piece can be hit with tempo or combined tactics.",
+  "reply": "Attack or fix the loose piece; don’t overextend into tactics."
+}

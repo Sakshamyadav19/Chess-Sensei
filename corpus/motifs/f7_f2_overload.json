@@ -1,0 +1,10 @@
+{
+  "id": "f7_f2_overload",
+  "name": "Pressure on f7/f2 (Overload)",
+  "type": "tactic",
+  "phase": "opening",
+  "tags": ["overload","weak square","fork themes"],
+  "recognition": ["f7_or_f2_under_pressure"],
+  "explain": "f7/f2 is a natural weak point; if attackers outnumber defenders, tactics like Nxf7/Qf3+ or forks can appear.",
+  "reply": "Increase defenders or sidestep tactics; develop calmly (…Be7/…Nf6) and watch for forks or checks on f7/f2."
+}
