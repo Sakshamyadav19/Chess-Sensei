@@ -11,7 +11,7 @@ import google.generativeai as genai
 
 # Configure once
 _API_KEY = os.getenv("GOOGLE_API_KEY")
-_MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")  
+_MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-pro")
 
 def _configured() -> bool:
     return bool(_API_KEY)
