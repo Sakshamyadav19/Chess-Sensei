@@ -2,14 +2,16 @@
 # Minimal Gemini phrasing layer for SenseiBoard. Keeps outputs short & grounded.
 
 from __future__ import annotations
-import os, json
-from typing import Dict, Any, List
+
+import json
+import os
+from typing import Any, Dict, List
 
 import google.generativeai as genai
 
 # Configure once
 _API_KEY = os.getenv("GOOGLE_API_KEY")
-_MODEL_NAME = os.getenv("gemini-2.5-pro")  
+_MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")  
 
 def _configured() -> bool:
     return bool(_API_KEY)
